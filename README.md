@@ -71,25 +71,25 @@ List of features ready and TODOs for future development
 17. Open Eclipse IDE for Enterprise Developers
 18. Go to File -> Import -> Maven -> Existing Maven Projects
 19. Browse for SynergyFitness
-28. Make a application.properties in src/main/resources that looks similar to this:
-![image](https://user-images.githubusercontent.com/94322184/152013780-fa8bf42e-85a4-46a8-947a-1722baa16fac.png)
+20. Make a application.properties in src/main/resources that looks similar to this:
+![appProps](https://user-images.githubusercontent.com/94322184/152034442-aa9aa0ce-5e56-4b5f-9494-e50275fa2df8.png)
 
-29. This application.properties file will establish a connect to our AWS EC2 Database.
-33. Expand src/main/java -> com.revature.app -> TRMSApp.java
-34. Right click on TRMSApp.java
-35. Select Run as -> Java Application
-![trmsapprun](https://user-images.githubusercontent.com/94322184/152014984-953bc108-a1bf-42b2-9a11-a206674e59a1.png)
+21. This application.properties file will establish a connect to our AWS EC2 Database.
+22. Expand src/main/java -> com.revature.app -> TRMSApp.java
+23. Right click on TRMSApp.java
+24. Select Run as -> SpringBoot Application
+![synfitapp](https://user-images.githubusercontent.com/94322184/152034088-c16a3690-f78a-4b7a-88e3-fd18774945e0.png)
 
-![javalin](https://user-images.githubusercontent.com/94322184/152015026-a0412d09-43d6-425d-98b3-850003fa42cb.png)
+![synfitSpringBoot](https://user-images.githubusercontent.com/94322184/152034114-a5d1f285-0c52-4b92-ba74-15265eadda76.png)
 
-36. Start the App by going to the directory that you placed the TRMS App into, navigating to trms-front -> html
-37. Open index.html in a web browser of your choice
-38. You are ready to run the TRMS.
+25. Start the App by going to the directory that you placed the TRMS App into, navigating to trms-front -> html
+26. Open index.html in a web browser of your choice
+27. You are ready to run the TRMS.
 
 ## Contributors
-- Ricky
-- Christian
-- Carlo
+- Richard Duenas
+- Christian D. Seefeldt
+- Carlo Del Mundo
 
 ## License
 
